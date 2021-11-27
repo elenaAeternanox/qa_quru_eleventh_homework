@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
-@Tags({@Tag("files_test"), @Tag("registration_page")})
+@Tags({@Tag("ValueSource"), @Tag("CsvSource"), @Tag("MethodSource"), @Tag("EnumSource")})
 public class PrintTagTest {
 
     private static final String MESSAGE = "Build includes parameterized tests with ";
