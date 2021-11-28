@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class DifferentParameterizedTest extends TestBase{
+public class DifferentParameterizedTest {
 
     @Tag("ValueSource")
     @ValueSource(strings = {"Alex Kotov", "Elena Grach", "Andrew Balkonov", "Irina Bagrova"})
